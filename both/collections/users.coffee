@@ -5,7 +5,8 @@ Schemas.UserProfile = new SimpleSchema(
   picture:
     type: String
     optional:true
-    label: 'Profile picture'
+    label: ->
+      TAPi18n.__ 'profilePicture'
     autoform:
       afFieldInput:
         type: 'fileUpload'

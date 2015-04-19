@@ -1,0 +1,79 @@
+{
+	/*Config*/
+	"configName": "My App",
+	"configTitle": "Assurez Meteor Apps. Rapide.",
+	"configSubtitle": "Créer beau et fonctionne Meteor apps vraiment rapide",
+
+	/*Home*/
+	"getstarted": "Commencer",
+	"learn": "Apprendre plus",
+	"how": "Comment Ça Marche",
+	"step_1": "Étape 1",
+	"step_1_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+	"step_2": "Étape 2",
+	"step_2_text": "Oratio me istius philosophi non offendit; Qua tu etiam inprudens utebare non numquam.",
+	"step_3": "Étape 3",
+	"step_3_text": "Et ille ridens: Video, inquit, quid agas; Duo Reges: constructio interrete.",
+	"question_1": "Question 1",
+	"question_1_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sedulo, inquam, faciam. Haeret in salebra. Verum hoc idem saepe faciamus. An potest cupiditas finiri?",
+	"question_2": "Question 2",
+	"question_2_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sedulo, inquam, faciam. Haeret in salebra. Verum hoc idem saepe faciamus. An potest cupiditas finiri? Quorum sine causa fieri nihil putandum est. Duo Reges: constructio interrete. Nos commodius agimus. Experiamur igitur, inquit, etsi habet haec Stoicorum ratio difficilius quiddam et obscurius.",
+	"question_3": "Question 3",
+	"question_3_text": "Quorum sine causa fieri nihil putandum est. Duo Reges: constructio interrete. Nos commodius agimus. Experiamur igitur, inquit, etsi habet haec Stoicorum ratio difficilius quiddam et obscurius.",
+	"final_text": "Votre vie sera instantanément mieux.",
+	"final_cta": "Regarde",
+
+	/*Shared*/
+
+	/*FavoriteButtons*/
+	"favorite": "Favori",
+
+	/*Navbar*/
+	"admin": "Admin",
+	"profile": "Profil",
+	"account": "Compte",
+	"signout": "Se Déconnecter",
+	"signup": "Signer",
+	"login": "Se Connecter",
+	"edit_profile": "Modifier le profil",
+
+	/*Not found*/
+	"not_found": "Rien ici.",
+
+	/*Dashboard*/
+	"add_post": "Ajouter un message",
+	"add_post_btn": "Ajouter Poster",
+	"edit_post": "Modifier le message",
+	"delete": "Effacer",
+	"favorites": "Favoris",
+
+
+	/*Account*/
+	"account_details": "Details Du Compte",
+	"delete_account": "Supprimer Le Compte",
+	"delete_account_warn": "Il n'y a pas de retour de celui-",
+	"delete_account_warn2": "Êtes-vous sûr de vouloir supprimer votre compte ?",
+	"close": "Près",
+	"change_pswd": "Changer Le Mot De Passe",
+
+
+	/*Profile*/
+	"update": "Mettre à jour",
+
+	"postTitle": "Titre",
+	"postContent": "Content",
+	"postPicture": "Image",
+	// "uploadLabel": "Choisissez Fichier"
+	"profilePicture": "Profile Picture"
+	
+
+
+
+
+
+
+
+
+
+
+}

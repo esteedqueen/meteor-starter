@@ -6,11 +6,15 @@ Schemas.Posts = new SimpleSchema
 	title:
 		type:String
 		max: 60
+		label: ->
+			TAPi18n.__ 'postTitle'
 
 	content:
 		type: String
 		autoform:
 			rows: 5
+		label: ->
+			TAPi18n.__ 'postContent'
 
 	createdAt: 
 		type: Date
@@ -31,6 +35,8 @@ Schemas.Posts = new SimpleSchema
 			afFieldInput:
 				type: 'fileUpload'
 				collection: 'Attachments'
+		label: ->
+			TAPi18n.__ 'postPicture'
 
 	owner: 
 		type: String

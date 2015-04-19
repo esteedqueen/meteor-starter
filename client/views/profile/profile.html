@@ -5,13 +5,13 @@
 			<div class="col-md-4">
 				{{#autoForm id="updatePicture" collection=Users doc=currentUser type="update"}}
 					{{> afQuickField name="profile.picture"}}
-				<button type="submit" class="btn btn-primary">Update</button>
+				<button type="submit" class="btn btn-primary">{{_ "update"}}</button>
 				{{/autoForm}}
 			</div>
 			<div class="col-md-8">
 				{{#autoForm id="updateProfile" collection=Users doc=currentUser type="update"}}
 				{{> afQuickField name='profile' omitFields="profile.picture"}}
-				<button type="submit" class="btn btn-primary">Update</button>
+				<button type="submit" class="btn btn-primary">{{_ "update"}}</button>
 				{{/autoForm}}
 			</div>
 		</div>

@@ -1,7 +1,9 @@
 @Config =
 	name: 'My App'
-	title: 'Make Meteor Apps. Fast.'
-	subtitle: 'Create beautiful and functioning Meteor apps really quick'
+	title: ->
+			TAPi18n.__ 'configTitle'
+	subtitle: ->
+			TAPi18n.__ 'configSubtitle'
 	logo: ->
 		'<b>' + @name + '</b>'
 	footer: ->
@@ -18,3 +20,7 @@
 			['http://twitter.com/BenPeterJones','twitter']
 			['http://github.com/yogiben','github']
 		]
+
+Meteor.startup ->
+	if Meteor.isClient
+		TAPi18n.setLanguage('en')
